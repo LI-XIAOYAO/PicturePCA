@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Lxy</Authors>
+    <PackageIcon>icon.ico</PackageIcon>
+    <ApplicationIcon>Resource\Icon\icon.ico</ApplicationIcon>
+    <Company>Lxy</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Icon\icon.ico" />
+    <None Remove="Resource\Icon\icon.ico" />
+    <None Include="Resource\Icon\icon.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resource\Icon\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lxy.Picture" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
