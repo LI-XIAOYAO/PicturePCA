@@ -8,6 +8,7 @@
     <PackageIcon>icon.ico</PackageIcon>
     <ApplicationIcon>Resource\Icon\icon.ico</ApplicationIcon>
     <Company>Lxy</Company>
+    <Copyright>Lxy</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
